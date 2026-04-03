@@ -16,7 +16,7 @@ export default function Dashboard() {
         <div className="xl:col-span-8 flex flex-col gap-6">
           
           {/* 1. TOP CARD (Metrics & Chart) */}
-          <div className="bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col lg:flex-row overflow-hidden">
+          <div className="bg-white rounded-2xl border border-slate-200 flex flex-col lg:flex-row overflow-hidden">
             
             {/* Left Side: 2x2 Metrics Grid */}
             <div className="w-full lg:w-5/12 grid grid-cols-2 border-b lg:border-b-0 lg:border-r border-slate-200 relative">
