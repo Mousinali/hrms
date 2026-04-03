@@ -24,7 +24,7 @@ const EmployeeTable = () => {
   }, [searchTerm, statusFilter, deptFilter]);
 
   return (
-    <div className="bg-white rounded-3xl border border-slate-100 shadow-sm shadow-slate-200/50 p-6 overflow-hidden flex flex-col">
+    <div className="bg-white md:rounded-3xl border border-slate-100 shadow-sm shadow-slate-200/50 p-6 overflow-hidden flex flex-col">
       {/* --- HEADER & FILTERS --- */}
       <div className="flex flex-col gap-6 mb-8">
         <div className="flex justify-between items-center">
@@ -42,8 +42,8 @@ const EmployeeTable = () => {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="relative group">
+        <div className="grid grid-cols-1 md:grid-cols-3 grid-cols-2 gap-4">
+          <div className="relative group md:col-span-1 col-span-2">
             <i className="ri-search-2-line absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg group-focus-within:text-indigo-500 transition-colors"></i>
             <input
               type="text"
